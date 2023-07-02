@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 body{
     background-color: #000000;
     color: #ffffff;
@@ -19,6 +21,7 @@ body{
     border: none;
     font-size: 16px;
     white-space: nowrap;
+    font-family: 'Inter', sans-serif;
 }
 
 #divBusca{
@@ -27,27 +30,27 @@ body{
     width:200px;
     height:32px;
     position: relative;
-    left: 475px;
-    
+    left: 430px;
   }
   
   #txtBusca{
     float:left;
     background-color:transparent;
     padding-left:16px;
-    font-size:18px;
+    font-size:15px;
     border:none;
     height:32px;
     width:180px;
+    font-family: 'Inter', sans-serif;
   }
   
   #btnBusca{
     float:left;
     height:32px;
     width:70px;
-    font-weight:bold;
     color: #ffffff;
     background: none;
     position: relative;
     left: 16px;
+    font-family: 'Inter', sans-serif;
   }
